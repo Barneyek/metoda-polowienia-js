@@ -1,0 +1,82 @@
+   p {
+      margin: 0;
+   }
+
+   .oblicz {
+      display: none;
+   }
+
+   label {
+      display: initial;
+   }
+
+   #header {
+      text-align: center;
+      background-image: url(doodles.png);
+      background-repeat: repeat;
+      height: 100vh;
+   }
+
+   #header h1 {
+      font-size: 2.0rem;
+      padding: 0px 0 25px 0;
+   }
+
+   #header label {
+      padding: 10px 0;
+   }
+
+   #header input {
+      display: initial;
+      padding: .375rem .75rem;
+      font-size: 0.8rem;
+      line-height: 1.0;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: .25rem;
+      transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+      padding: 3px 0 3px 0;
+      margin: 1px 0 1px 0;
+   }
+
+   .center {
+      justify-content: center;
+   }
+
+   .caption {
+      border-radius: 25px;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      background: /* gradient overlay */
+      linear-gradient( to bottom, rgba(27, 143, 108, 0.4), /* #61ddbc */
+      rgba(62, 142, 110, 0.6)/* #28100d */
+      ), /* bottom image */
+      url() no-repeat left top;
+      background-size: cover;
+      z-index: 0;
+
+   }
+
+   .caption .title {
+      margin-bottom: 1.5rem;
+   }
+
+   .caption .text {
+      margin-bottom: 1.5rem;
+   }
+
+   .caption .action {
+      margin-bottom: 1rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      border-radius: 15px;
+   }
+
+   .title-display {
+      font-size: 4.5rem;
+      font-weight: 300;
+      line-height: 1.2;
+   }
